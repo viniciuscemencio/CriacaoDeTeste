@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RegraDeTres</string>
+    <string name="edittextename">Digite o valor...</string>
+    <string name="editValor">Digite...</string>
+</resources>
