@@ -1,5 +1,7 @@
 package com.example.regradetres;
 
+import android.widget.Toast;
+
 public class Calcula {
     public Double CalculaRegra(Double a, Double b, Double c) {
 
