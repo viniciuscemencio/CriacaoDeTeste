@@ -60,32 +60,6 @@ public class CalculaTest {
                 (10.2, calc.CalculaSoma(5.1,5.1), 0.01);
     }
 
-    @Test
-    public void CalculaSubtracao(){
-        assertEquals
-                (0,
-                        calc.CalculaSubtracao(5.0,5.0), 0.01);
-    }
-
-    @Test
-    public void CalculaSubtracaoNegativa(){
-        assertEquals
-                (-10,
-                        calc.CalculaSubtracao(-5.0,5.0), 0.01);
-    }
-
-    @Test
-    public void CalculaSubtracaoZero(){
-        assertEquals
-                (5,
-                        calc.CalculaSubtracao(5.0,0.0), 0.01);
-    }
-
-    @Test
-    public void CaculaSubtracaoDecimal(){
-        assertEquals
-                (0.1, calc.CalculaSubtracao(5.1,5.0), 0.01);
-    }
 
 
     @Test

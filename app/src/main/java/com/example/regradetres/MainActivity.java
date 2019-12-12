@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity {
         b = Double.parseDouble(editB.getText().toString());
 
         Calcula cal = new Calcula();
-        Double resultado = cal.CalculaSubtracao(a, b);
+        Double resultado = cal.CalculaSoma(a, b * -1);
 
         TextView textViewResult = findViewById(R.id.textViewResultadoCal);
         textViewResult.setText(resultado.toString());
@@ -127,7 +127,7 @@ public class MainActivity extends AppCompatActivity {
         a = Double.parseDouble(editA.getText().toString());
         b = Double.parseDouble(editB.getText().toString());
 
-        if(a == 0 || b ==0){
+        if(b ==0){
             Toast.makeText(MainActivity.this, "Não é possivel fazer divisão por 0 ! ", Toast.LENGTH_SHORT).show();
         }
         else {

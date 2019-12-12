@@ -17,9 +17,6 @@ public class Calcula {
     public Double CalculaSoma(Double a, Double b){
         return  a + b;
     }
-    public Double CalculaSubtracao(Double a, Double b){
-        return  a - b;
-    }
     public Double CalculaMultiplicacao(Double a, Double b){
         return  a * b;
     }

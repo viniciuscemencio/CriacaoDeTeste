@@ -124,7 +124,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="8dp"
         android:onClick="Subtracao"
         android:text="-"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
@@ -132,15 +132,14 @@
         app:layout_constraintTop_toBottomOf="@+id/textViewResultadoCal" />
 
     <Button
-        android:id="@+id/btnMultipliacacao"
+        android:id="@+id/btnSoma"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="44dp"
-        android:onClick="Multiplicacao"
-        android:text="*"
+        android:layout_marginTop="8dp"
+        android:onClick="Soma"
+        android:text="+"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        app:layout_constraintStart_toEndOf="@+id/btnSubtracao"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewResultadoCal" />
 
     <Button
@@ -148,23 +147,25 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="8dp"
         android:onClick="Divisao"
         android:text="/"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
         app:layout_constraintStart_toEndOf="@+id/btnMultipliacacao"
         app:layout_constraintTop_toBottomOf="@+id/textViewResultadoCal" />
 
     <Button
-        android:id="@+id/btnSoma"
+        android:id="@+id/btnMultipliacacao"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
-        android:onClick="Soma"
-        android:text="+"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:onClick="Multiplicacao"
+        android:text="*"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnSubtracao"
         app:layout_constraintTop_toBottomOf="@+id/textViewResultadoCal" />
 
     <RadioGroup
